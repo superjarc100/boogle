@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="description" content="spletna stran">
+        <meta name="keywords" content="doma">
+        <meta name="author" content="matija jarc">
+        <title>Fakebook</title>
+        
+        <link href="styles.css" type="text/css" rel="stylesheet" />
+    </head>
+    <body>
+        
+        <div id="header">
+            
+            <h1 id="naslov">FAKEBOOK</h1>
+        
+        </div>
+        
+        <input class="input" type="text">
+        <input id="search" type="button" value="Search!">
+        
+        <br/>
+        <br/>
+        <br/>
+        
+        <div id="prvi">
+            
+            <p class="textNormal">Profil</p>
+            
+            <h2 id="h2">Matija Jarc</h2>
+            
+            <br/>
+        
+            <img id="slikaPrikazna" src="http://i.telegraph.co.uk/multimedia/archive/02427/KimJong-un_2427121b.jpg">
+        
+            <br/>
+        
+            30
+        
+            <img width="20" src="data:image/png;base64,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">
+        
+            <br/>
+            <br/>
+        
+            <ul id="podatki">
+                <li><strong>Kraj:</strong> Tolmin</li>
+                <li><strong>Starost:</strong> 19</li>
+                <li><strong>Hobi:</strong> nogomet</li>
+            </ul>
+        </div>
+        
+        <div id="storyBoard" >
+            
+            <p class="textNormal">StoryBoard</p>
+            
+            <input type="text" id="text" value="stanje">
+            <input type="button" id="button" value="Post!">
+            
+            
+        
+        
+        </div>
+        
+        <br/>
+        
+    </body>
+</html>
